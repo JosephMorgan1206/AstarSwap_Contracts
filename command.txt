@@ -1,0 +1,4 @@
+npx hardhat compile // contracts compile
+npx hardhat run --network mainnet scripts/deploy.js   // contracts deploy
+npx hardhat verify --network mainnet DEPLOYED_CONTRACT_ADDRESS "Constructor argument 1"   // contract verify
+npx hardhat flatten contracts/contract.sol > contract.sol   // flatten the contract solidity file
